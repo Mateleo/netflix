@@ -3,14 +3,29 @@ import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import Metrics from "./components/Metrics.vue";
 import CommonWords from "./components/CommonWords.vue";
+import type { Suspense } from "vue";
+import CommonWords2 from "./components/CommonWords2.vue";
+import CommonWords3 from "./components/CommonWords3.vue";
+import Tweet from "./components/Tweet.vue";
 </script>
 
 <template>
   <Header></Header>
-  <div class="w-[70%] mx-auto">
+  <div class="w-[95%] md:w-[80%] lg:w-[70%] mx-auto">
     <Hero></Hero>
     <Metrics></Metrics>
-    <CommonWords></CommonWords>
+    <Suspense>
+      <CommonWords></CommonWords>
+    </Suspense>
+    <Suspense>
+      <CommonWords2></CommonWords2>
+    </Suspense>
+    <Suspense>
+      <CommonWords3></CommonWords3>
+    </Suspense>
+    <Suspense>
+      <Tweet></Tweet>
+    </Suspense>
     <div class="h-[1000px]"></div>
   </div>
 </template>
