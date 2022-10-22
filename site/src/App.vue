@@ -2,6 +2,7 @@
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import Metrics from "./components/Metrics.vue";
+import CommonWords from "./components/CommonWords.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Metrics from "./components/Metrics.vue";
   <div class="w-[70%] mx-auto">
     <Hero></Hero>
     <Metrics></Metrics>
+    <CommonWords></CommonWords>
     <div class="h-[1000px]"></div>
   </div>
 </template>
