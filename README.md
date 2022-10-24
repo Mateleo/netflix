@@ -17,7 +17,7 @@
 
   [1]- Click on "https://netflix-reputation.netlify.app/":
        ---> the web page will open on that browser!
-       ---> Explore the informatiosn displayed there (•_•) !
+       ---> Explore the information displayed there (•_•) !
      
 ------------------------------------------------------------------------------------------------------------------
 
