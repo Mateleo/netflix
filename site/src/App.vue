@@ -7,6 +7,9 @@ import type { Suspense } from "vue";
 import CommonWords2 from "./components/CommonWords2.vue";
 import CommonWords3 from "./components/CommonWords3.vue";
 import Tweet from "./components/Tweet.vue";
+import Tweet2 from "./components/Tweet2.vue";
+import Quote from "./components/Quote.vue";
+import Tweet3 from "./components/Tweet3.vue";
 </script>
 
 <template>
@@ -25,6 +28,13 @@ import Tweet from "./components/Tweet.vue";
     </Suspense>
     <Suspense>
       <Tweet></Tweet>
+    </Suspense>
+    <Suspense>
+      <Tweet2></Tweet2>
+    </Suspense>
+    <Quote></Quote>
+    <Suspense>
+      <Tweet3></Tweet3>
     </Suspense>
     <div class="h-[1000px]"></div>
   </div>
