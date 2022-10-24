@@ -1,12 +1,8 @@
 <script setup lang="ts"></script>
 <template>
   <main class="flex flex-col justify-center text-center">
-    <h1 class="font-semibold text-3xl mb-5">Your E-Reputation with us !</h1>
-    <img
-      class="w-1/2 m-auto"
-      src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
-      alt=""
-    />
+    <h1 class="font-semibold text-3xl mb-2" id="we">Your E-Reputation with us !</h1>
+    <h2 class="font-semibold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Your true solution for the true knowledge</h2>
   </main>
   <div class="grid grid-cols-2 gap-14 mt-20">
     <div>
@@ -37,5 +33,7 @@
       </p>
     </div>
   </div>
+  <h1 class="font-semibold text-3xl mb-2 text-center mt-16" id="showcase">Real showcase ? No Problem</h1>
+  <img class="w-1/2 m-auto" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="">
 </template>
 <style></style>

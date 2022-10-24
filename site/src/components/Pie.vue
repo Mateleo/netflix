@@ -24,14 +24,16 @@ ChartJS.register(
 
 let data = ref([93.2, 6.8]);
 let data3 = ref([94.7, 5.3]);
-let data2 = ref([91.7,1.4, 6.9]);
+let data2 = ref([91.7, 1.4, 6.9]);
 let label = ref(["Positive", "Negative"]);
 let label2 = ref(["Positive", "Neutral", "Negative"]);
 </script>
+
 <template>
-  <div class="grid grid-cols-3 gap-20">
+  <h3 class="font-semibold text-xl mb-2 mt-20">Distribution of Netflix reputation over the last decade</h3>
+  <div class="grid grid-cols-3 gap-20 mt-3">
     <div>
-      <p>Distribution of Netflix reputation in the UK over the last decade</p>
+      <p class="font-semibold text-lg text-center">UK</p>
       <Pie
         :chart-options="{
           maintainAspectRatio: false,
@@ -51,7 +53,7 @@ let label2 = ref(["Positive", "Neutral", "Negative"]);
       </Pie>
     </div>
     <div>
-      <p>Distribution of Netflix reputation in the US over the last decade</p>
+      <p class="font-semibold text-lg text-center">US</p>
       <Pie
         :chart-options="{
           maintainAspectRatio: false,
@@ -61,7 +63,7 @@ let label2 = ref(["Positive", "Neutral", "Negative"]);
           datasets: [
             {
               data: data2,
-              backgroundColor: ['#22C55E','#22D3EE','#E80000'],
+              backgroundColor: ['#22C55E', '#22D3EE', '#E80000'],
             },
           ],
           labels: label2,
@@ -70,7 +72,7 @@ let label2 = ref(["Positive", "Neutral", "Negative"]);
       </Pie>
     </div>
     <div>
-      <p>Distribution of Netflix reputation in France over the last decade</p>
+      <p class="font-semibold text-lg text-center">France</p>
       <Pie
         :chart-options="{
           maintainAspectRatio: false,

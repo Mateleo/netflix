@@ -15,7 +15,7 @@ import Pie from "./components/Pie.vue";
 
 <template>
   <Header></Header>
-  <div class="w-[95%] md:w-[80%] lg:w-[70%] mx-auto">
+  <div class="w-[95%] md:w-[80%] lg:w-[70%] xl:w-[60%] mx-auto">
     <Hero></Hero>
     <Metrics></Metrics>
     <Suspense>
@@ -33,17 +33,18 @@ import Pie from "./components/Pie.vue";
     <Suspense>
       <Tweet2></Tweet2>
     </Suspense>
-    <Quote></Quote>
     <Suspense>
       <Tweet3></Tweet3>
     </Suspense>
     <Pie></Pie>
+    <Quote></Quote>
     <div class="h-[1000px]"></div>
   </div>
 </template>
 <style>
 html {
-  background-color: #353535;
+  background-color: #292929;
+  scroll-behavior: smooth;
 }
 #app {
   color: white;

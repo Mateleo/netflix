@@ -24,6 +24,7 @@ await axios.get("https://apidatacamp.4esport.fr/api/tw3").then((response) => {
 });
 </script>
 <template>
+  <h3 class="font-semibold text-xl mb-2 mt-20">Netflix tweets from the last decade</h3>
   <Bar
     :chart-options="{
       maintainAspectRatio: false,
@@ -41,7 +42,7 @@ await axios.get("https://apidatacamp.4esport.fr/api/tw3").then((response) => {
         {
           label: 'Tweets',
           data: label,
-          backgroundColor: ['#dc2626'],
+          backgroundColor: ['#2563eb'],
         },
       ],
       labels: data,

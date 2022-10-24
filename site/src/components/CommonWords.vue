@@ -18,12 +18,13 @@ let data = ref();
 let label = ref();
 
 await axios.get("https://apidatacamp.4esport.fr/api/cw1").then((response) => {
-  data.value = response.data.map((e:Array<string>) => e[0]);
-  label.value = response.data.map((e:Array<number>) => e[1]);
+  data.value = response.data.map((e: Array<string>) => e[0]);
+  label.value = response.data.map((e: Array<number>) => e[1]);
   console.log(data.value);
 });
 </script>
 <template>
+  <h3 class="font-semibold text-xl mb-2 mt-20">Most commond words</h3>
   <Bar
     :chart-options="{
       maintainAspectRatio: false,
@@ -41,6 +42,7 @@ await axios.get("https://apidatacamp.4esport.fr/api/cw1").then((response) => {
         {
           label: 'Words',
           data: label,
+          backgroundColor: '#2563eb',
         },
       ],
       labels: data,
@@ -48,4 +50,3 @@ await axios.get("https://apidatacamp.4esport.fr/api/cw1").then((response) => {
   >
   </Bar>
 </template>
-<style></style>

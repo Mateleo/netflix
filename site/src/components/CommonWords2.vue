@@ -41,6 +41,7 @@ await axios.get("https://apidatacamp.4esport.fr/api/cw2").then((response) => {
         {
           label: 'Words',
           data: label,
+          backgroundColor:['#2563eb']
         },
       ],
       labels: data,

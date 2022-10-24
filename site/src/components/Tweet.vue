@@ -26,6 +26,8 @@ await axios.get("https://apidatacamp.4esport.fr/api/tw1").then((response) => {
 });
 </script>
 <template>
+  <h1 class="font-semibold text-2xl mb-2 mt-16 text-center">Sentimental Analysis</h1>
+  <h3 class="font-semibold text-xl mb-2 mt-10">Polarity density</h3>
   <Bar
     :chart-options="{
       maintainAspectRatio: false,
