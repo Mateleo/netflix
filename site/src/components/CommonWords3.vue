@@ -17,7 +17,7 @@ ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
 let data = ref();
 let label = ref();
 
-await axios.get("http://127.0.0.1:8000/api/cw3").then((response) => {
+await axios.get("https://apidatacamp.4esport.fr/api/api/cw3").then((response) => {
   data.value = response.data.map((e:Array<string>) => e[0]);
   label.value = response.data.map((e:Array<number>) => e[1]);
   console.log(data.value);
