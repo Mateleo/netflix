@@ -10,6 +10,7 @@ import Tweet from "./components/Tweet.vue";
 import Tweet2 from "./components/Tweet2.vue";
 import Quote from "./components/Quote.vue";
 import Tweet3 from "./components/Tweet3.vue";
+import Pie from "./components/Pie.vue";
 </script>
 
 <template>
@@ -36,6 +37,7 @@ import Tweet3 from "./components/Tweet3.vue";
     <Suspense>
       <Tweet3></Tweet3>
     </Suspense>
+    <Pie></Pie>
     <div class="h-[1000px]"></div>
   </div>
 </template>
