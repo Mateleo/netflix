@@ -34,4 +34,6 @@ def tw2(request):
 def tw3(request):
     return JsonResponse(json.loads(df6.to_json(orient="values")), safe=False)
 
+    
+
 
