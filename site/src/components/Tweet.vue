@@ -18,7 +18,7 @@ let data = ref();
 let label = ref();
 let color = ref();
 
-await axios.get("https://apidatacamp.4esport.fr/api/api/tw1").then((response) => {
+await axios.get("https://apidatacamp.4esport.fr/api/tw1").then((response) => {
   data.value = response.data.map((e: Array<number>) => e[0]);
   label.value = response.data.map((e: Array<number>) => e[1]);
   color.value = response.data.map((e: Array<string>) => e[2]);
