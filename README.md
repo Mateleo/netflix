@@ -11,7 +11,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
---------------------------< To acess our Dashboard web app page "ER" via web browser >----------------------------
+--------------------------< To access our Dashboard web app page "ER" via web browser >----------------------------
 
 ------------------------------------------------------------------------------------------------------------------ 
 
@@ -29,9 +29,9 @@
 [1]. Install ANACONDA 
    Download it from : https://www.anaconda.com/
 
-[2]. Open ANACONDA powershell prompt (installation of modules we'll be done here !)and type the commands 
+[2]. Open ANACONDA PowerShell prompt (installation of modules we'll be done here !)and type the commands 
 
-[3]. Create a new environement : "You'll proceed to the creation of your own environment"  
+[3]. Create a new environment: "You'll proceed to the creation of your own environment"  
 
 --> Type:
     conda create -n my-env
