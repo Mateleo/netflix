@@ -1,7 +1,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
                       
-                                                                                                                                                                                     ༼ つ ◕_◕ ༽つ   README
+                                                                                                                                                                                                                  ༼ つ ◕_◕ ༽つ   README
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -76,16 +76,27 @@ This task is a 4 step. I'll walk you through it :
 Copy and paste the following lines to ANACONDA powershell prompt:
 
 conda config --env --add channels conda-forge
+  
 conda install numpy
+  
 conda install -c anaconda pandas
+  
 Conda install matplotlib
+  
 conda install -c anaconda seaborn
+  
 conda install -c anaconda nltk
+  
 conda install -c conda-forge nltk_data
+  
 conda install -c conda-forge wordcloud
+  
 conda install -c conda-forge textblob
+  
 python -m textblob.download_corpora
+  
 conda install -c conda-forge vadersentiment
+  
 pip install GoogleNews
 ------------------------------------------------------------------------------------------------------------------
 
