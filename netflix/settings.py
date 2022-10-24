@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-om8*9=h&1*8p(*6g93+g8t=ecn$8t9v7ijllnw7vup6vxjoy30
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["apidatacamp.4esport.fr"]
 
 CORS_ORIGIN_ALLOW_ALL = DEBUG
 
