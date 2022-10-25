@@ -12,7 +12,7 @@
     </div>
     <div class="flex flex-col text-center rounded-lg p-2 bg-black/30 shadow-lg shadow-black/50">
       <p class="font-medium text-sm text-white/60">Years of scrapping</p>
-      <h1 class="font-bold text-3xl">7</h1>
+      <h1 class="font-bold text-3xl">10</h1>
     </div>
   </div>
 </template>
