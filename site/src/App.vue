@@ -11,6 +11,7 @@ import Tweet2 from "./components/Tweet2.vue";
 import Quote from "./components/Quote.vue";
 import Tweet3 from "./components/Tweet3.vue";
 import Pie from "./components/Pie.vue";
+import WordCloud from "./components/WordCloud.vue";
 </script>
 
 <template>
@@ -38,7 +39,8 @@ import Pie from "./components/Pie.vue";
     </Suspense>
     <Pie></Pie>
     <Quote></Quote>
-    <div class="h-[1000px]"></div>
+    <WordCloud></WordCloud>
+    <div class="h-[300px]"></div>
   </div>
 </template>
 <style>
